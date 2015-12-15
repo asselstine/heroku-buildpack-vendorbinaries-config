@@ -1,5 +1,9 @@
 export PATH=$PATH:$HOME/.heroku/vendor/bin
 echo "Set PATH to $PATH"
-ls $HOME
-ls $HOME/.heroku
-ls $HOME/.heroku/vendor
+echo 'pwd'
+pwd
+echo 'ls'
+ls -la $HOME
+ls -la $HOME/vendor
+ls -la $HOME/.heroku
+ls -la $HOME/.heroku/vendor
